@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(9, 50, 75);
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: rgb(34, 115, 186);
+}
+
+.doLogin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(34, 112, 111);
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.textoUsuario {
+    display: flex;
+    justify-content: center;
+    color: rgb(134, 196, 250);
+}
+
+.textoSenha {
+    display: flex;
+    justify-content: center;
+    color: rgb(134, 196, 250);
+}
+
+.loginButton {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    box-shadow: none;
+}
+
+.forgot {
+    padding-top: 10px;
+    color: rgb(134, 196, 250);
+}
+
+.withoutAccount {
+    color: rgb(134, 196, 250);
+}
+
+.apply {
+    color: inherit;
+}
+
+.senha {
+    width: 200px;
+}
+
+.usuario {
+    width: 200px;
+}
