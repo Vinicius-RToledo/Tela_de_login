@@ -8,25 +8,31 @@
     <title>Login</title>
     <link rel="icon" href="media/favicon.ico">
     <link rel="stylesheet" href="style.css">
+    <style>
+        @font-face {
+            font-family: 'Gratelos';
+            src: url('font/GratelosDisplay.ttf') format('truetype');
+        }
+    </style>
 </head>
 
 <body>
     <main class="container">
         <div>
-            <h1 class="title">Faça seu Login abaixo:</h1>
+            <h1 class="title">FAÇA SEU LOGIN ABAIXO:</h1>
             <form class="doLogin">
                 <div class="inputUser">
                     <p class="textoUsuario">Usuário:</p>
                     <label for="user"></label>
-                    <input class="usuario" type="text" name="user" id="user" placeholder="Digite seu nome de usuário">
+                    <input class="usuario" type="text" name="user" id="user" placeholder="Usuário ou Email">
                 </div>
                 <div class="inputPassword">
                     <p class="textoSenha">Senha:</p>
                     <label for="password"></label>
-                    <input class="senha" type="password" placeholder="Digite sua senha">
+                    <input class="senha" type="password" placeholder="Senha">
                 </div>
                 <div class="loginButton">
-                    <button type="submit">Login</button>
+                    <button class="botao" type="submit"><strong>Login</strong></button>
                     <a class="forgot" href="#">Esqueci minha senha</a>
                 </div>
                 <div class="infoAdtional">

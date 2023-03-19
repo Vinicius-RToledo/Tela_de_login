@@ -1,11 +1,14 @@
 body {
-    background-color: rgb(9, 50, 75);
+    background-color: #184D52;
 }
 
 .title {
     display: flex;
     justify-content: center;
-    color: rgb(34, 115, 186);
+    color: #92E3EA;
+    font-family: 'Gratelos';
+    font-weight: normal;
+    font-size: 40px;
 }
 
 .doLogin {
@@ -13,7 +16,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(34, 112, 111);
+    background-color: #3097A1;
     width: 300px;
     height: 300px;
     margin: auto;
@@ -23,13 +26,13 @@ body {
 .textoUsuario {
     display: flex;
     justify-content: center;
-    color: rgb(134, 196, 250);
+    font-size: 20px;
 }
 
 .textoSenha {
     display: flex;
     justify-content: center;
-    color: rgb(134, 196, 250);
+    font-size: 20px;
 }
 
 .loginButton {
@@ -40,12 +43,12 @@ body {
 }
 
 .forgot {
-    padding-top: 10px;
-    color: rgb(134, 196, 250);
+    padding-top: 20px;
+    color: black;
 }
 
 .withoutAccount {
-    color: rgb(134, 196, 250);
+    color: black;
 }
 
 .apply {
